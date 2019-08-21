@@ -1,0 +1,13 @@
+URL : http://localhost:8080/schedule
+METHOD : POST
+Headers:
+	Content-Type: 'application/json'
+	Accept: 'application/json'
+
+Data:
+	{
+		"reference":"REF:2",
+		"cronExpression":"0/10 * * * * ?"
+	} 
+	
+//This Cron triggers every 10 seconds
